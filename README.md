@@ -4,9 +4,9 @@
 </div><br>
 
 ## About
-**Key-Note Extractor** is a - reasonably - lightweight, offline and cross-platform desktop utility that summarizes long texts into their most important points. By using machine learning to cluster similar ideas, it identifies and extracts the core "key notes" from articles, reports, or essays, saving you the time of reading through fluff.
+**Key-Note Extractor** is a lightweight, offline and cross-platform desktop utility that summarizes long texts into their most important points. By using machine learning to cluster similar ideas, it identifies and extracts the core "key notes" from articles, reports, or essays, saving you the time of reading through fluff.
 
-> It doesn't change the original text; this means it only extract a relevant note as-is, so you are always reading the original author words.
+> It doesn't change the original text; this means it only extracts a relevant note as-is, so you are always reading the original author words.
 
 > It is not 100% accurate, but in most cases, it should do the job. It works best with simple non-formatted text (i.e: plain text is better than a markdown code) like in the screenshots below.
 
@@ -17,13 +17,12 @@
 | ![Screenshot Dark](Assets/dark.png) | ![Screenshot Light](Assets/light.png) |
 
 ## Usage
-Simply type your long text in the `Text Field`, then press `Extract Key Notes`
-to see the summary in bullets.
+Simply type your long text in the `Text Field`, then press `Extract Key Notes` to see the summary in bullets.
 
 > Note that the first extraction will take some seconds to load the model. For Windows, a powershell window may pop-up once, which is normal ***(unless you believe this is a hidden virus trying to get your data to my dark web server and install an unbreakable ransomware to take your money, which I'm not experienced enough to do yet)***.
 
 ## Run From Source
-> Windows users can download pre-built binaries from the [release]() section.
+> Windows users can download pre-built binaries from the [releases](https://github.com/Mohyoo/Key-Note-Extractor/releases) section.
 1. Download the `main.py` script from this repo.
 2. Install Python requirements:
 ```
@@ -34,7 +33,7 @@ pip install sentence-transformers customtkinter scikit-learn numpy
 git lfs install
 git clone https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 ```
-4. Put the downloaded model folder beside `main.py` so it looks like this ***(files not mentioned below aren't needed)***:
+4. Put the downloaded model folder beside `main.py` so it looks like this ***(files that are not mentioned below aren't needed)***:
 ```
 |   main.py
 |   
