@@ -19,7 +19,7 @@
 ## Usage
 Simply type your long text in the `Text Field`, then press `Extract Key Notes` to see the summary in bullets.
 
-> Note that the first extraction will take some seconds to load the model. For Windows, a powershell window may pop-up once, which is normal ***(unless you believe this is a hidden virus trying to get your data to my dark web server and install an unbreakable ransomware to take your money, which I'm not experienced enough to do yet)***.
+> Note that the first extraction will take some seconds to load the model. For Windows, a powershell window may pop-up once, which is a side effect I don't know how to fix ***(unless you believe this is a hidden virus trying to get your data to my dark web server and install an unbreakable ransomware to take your money, which I'm not experienced enough to do yet)***.
 
 ## Run From Source
 > Windows users can download pre-built binaries from the [releases](https://github.com/Mohyoo/Key-Note-Extractor/releases) section.
